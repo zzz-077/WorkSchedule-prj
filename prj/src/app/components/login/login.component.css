@@ -1,0 +1,104 @@
+.sign_box {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem 3.5rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: var(--font_color);
+}
+.sign_box form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  text-align: left;
+  width: 100%;
+}
+.sign_box form .field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  text-align: left;
+  width: 100%;
+}
+.sign_box form .field label {
+  font-size: 0.875rem;
+}
+.sign_box form .field .field_input {
+  padding: 0.75rem 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  border: 1px solid #504f4f;
+  outline: none;
+}
+.sign_box form .field .field_input input {
+  border: 0;
+  width: 100%;
+  font-size: 0.875rem;
+  outline: none;
+  background-color: #00000000;
+  color: var(--font_color);
+}
+.sign_box form .field .field_input input::placeholder {
+  color: #cac9c9f3;
+}
+.sign_box form .field .field_input .password_icons {
+  display: flex;
+  border: 0;
+  padding: 0;
+  gap: 0;
+}
+.sign_box form .field .field_input .password_icons i {
+  font-size: 0.75rem;
+  color: #bbb8b8;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.sign_box form .field .field_input .password_icons i:hover {
+  color: var(--decoration-color);
+}
+.sign_box form .button_box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: 0.875rem;
+}
+
+.sign_box form .button_box button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  background-color: var(--font_color);
+}
+.sign_box form .button_box button:disabled {
+  cursor: not-allowed;
+  filter: brightness(0.4);
+}
+.sign_box form .button_box button:disabled:hover {
+  cursor: not-allowed;
+}
+
+.sign_box form .button_box p {
+  color: #bbb8b8;
+  display: flex;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.sign_box form .button_box button p {
+  font-size: 1rem;
+  color: black;
+}
+.sign_box form .button_box a {
+  color: var(--font_color);
+  font-style: italic;
+  cursor: pointer;
+}

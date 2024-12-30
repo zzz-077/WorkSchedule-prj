@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "c7c1a987e7c",
+      "name": "ikaika",
+      "email": "ika@gmail.com",
+      "password": "$2a$10$jepkRWud4Y3iYapDSDotEeExeA4UzRAlcQxyH2Mr8NHOhIpt0jqhe"
+    },
+    {
+      "id": "caf6d395ddc",
+      "name": "vaske",
+      "email": "vaske@gmail.com",
+      "password": "$2a$10$yOJ5uvUSJiHwc3txOwYhE.8bCFjVv3Uy45dqTBl/1cbUVjEoipob6"
+    }
+  ]
+}

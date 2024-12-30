@@ -10,6 +10,11 @@ import { passwordMatch } from '../../validation/passValidation';
 import { CommonModule } from '@angular/common';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { ServiceService } from '../../shared/service.service';
+import { uid } from 'uid';
+import { USER } from '../../model/userM';
+import * as bcrypt from 'bcryptjs';
+
 @Component({
   selector: 'app-signup',
   standalone: true,
@@ -23,7 +28,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
   styleUrl: './signup.component.css',
 })
 export class SignupComponent {
-  constructor(private router: Router) {}
+  constructor(private router: Router, private service: ServiceService) {
+    this.service.saveUserLoginInLS(false);
+  }
 
   isPassOneClicked: boolean = false;
   isPassTwoClicked: boolean = false;
@@ -56,5 +63,25 @@ export class SignupComponent {
     else if (str === 'unhaid' && num === 2) this.isPassTwoClicked = true;
     else if (str === 'haid' && num === 2) this.isPassTwoClicked = false;
   }
-  signupClick() {}
+  signupClick() {
+    const id = uid();
+    let user: USER;
+    const hashedPass: string = bcrypt.hashSync(
+      this.userForm.value.password as string,
+      10
+    );
+    if (this.userForm) {
+      user = {
+        id: id,
+        name: this.userForm.value.name as string,
+        email: this.userForm.value.email as string,
+        password: hashedPass,
+      };
+      this.service.createUser(user).subscribe((res: Boolean) => {
+        if (res) {
+          this.router.navigate(['/login']);
+        }
+      });
+    }
+  }
 }

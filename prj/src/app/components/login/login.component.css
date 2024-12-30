@@ -8,6 +8,7 @@
   border-radius: 0.5rem;
   background-color: black;
   color: var(--font_color);
+  text-align: center;
 }
 .sign_box form {
   display: flex;

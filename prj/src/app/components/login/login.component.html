@@ -1,4 +1,7 @@
 <div class="sign_box">
+  <mat-error *ngIf="loginErrorResponse.status === false">
+    <span style="font-size: 1rem">{{ loginErrorResponse.message }}</span>
+  </mat-error>
   <form [formGroup]="userForm" action="">
     <div class="field">
       <label>Email</label>

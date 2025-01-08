@@ -1,6 +1,9 @@
 :root {
   --container_color: black;
   --font_color: whitesmoke;
+  --decorColor: #3270ae;
+  --eveningShift: #000957;
+  --MorningShift: #97c03e;
 }
 * {
   padding: 0;

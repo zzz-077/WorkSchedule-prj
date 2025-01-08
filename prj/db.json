@@ -12,5 +12,560 @@
       "email": "vaske@gmail.com",
       "password": "$2a$10$yOJ5uvUSJiHwc3txOwYhE.8bCFjVv3Uy45dqTBl/1cbUVjEoipob6"
     }
+  ],
+  "dashboard": [
+    {
+      "id": "1",
+      "month": "December",
+      "day": "1",
+      "weekday": "Monday",
+      "worktype": [
+        {
+          "name": "cook",
+          "shift": "Mording",
+          "worker": "Ban Hash"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "month": "December",
+      "day": "2",
+      "weekday": "Tuesday",
+      "worktype": [
+        {
+          "name": "security",
+          "shift": "Mording",
+          "worker": "John Doe"
+        },
+        {
+          "name": "cook",
+          "shift": "Evening",
+          "worker": "Zack Colins"
+        },
+        {
+          "name": "waiter",
+          "shift": "Morning",
+          "worker": "Eliot Lesner"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "month": "December",
+      "day": "3",
+      "weekday": "Wednesday",
+      "worktype": [
+        {
+          "name": "cook",
+          "shift": "Mording",
+          "worker": "Ban Hash"
+        },
+        {
+          "name": "barista",
+          "shift": "Morning",
+          "worker": "Evan Lincoln"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "month": "December",
+      "day": "4",
+      "weekday": "Thursday",
+      "worktype": [
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Eliot Lesner"
+        },
+        {
+          "name": "security",
+          "shift": "Evening",
+          "worker": "John Doe"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "month": "December",
+      "day": "5",
+      "weekday": "Friday",
+      "worktype": [
+        {
+          "name": "security",
+          "shift": "Evening",
+          "worker": "Chris Abel"
+        },
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Ban Hash"
+        },
+        {
+          "name": "waiter",
+          "shift": "Evening",
+          "worker": "Zack Colins"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "month": "December",
+      "day": "6",
+      "weekday": "Saturday",
+      "worktype": [
+        {
+          "name": "barista",
+          "shift": "Morning",
+          "worker": "Evan Lincoln"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "month": "December",
+      "day": "7",
+      "weekday": "Sunday",
+      "worktype": [
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Ban Hash"
+        },
+        {
+          "name": "waiter",
+          "shift": "Evening",
+          "worker": "Zack Colins"
+        },
+        {
+          "name": "security",
+          "shift": "Evening",
+          "worker": "John Doe"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "month": "December",
+      "day": "8",
+      "weekday": "Monday",
+      "worktype": [
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Ban Hash"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "month": "December",
+      "day": "9",
+      "weekday": "Tuesday",
+      "worktype": [
+        {
+          "name": "janitor",
+          "shift": "Evening",
+          "worker": "Chris Abel"
+        },
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Eliot Lesner"
+        },
+        {
+          "name": "barista",
+          "shift": "Evening",
+          "worker": "Evan Lincoln"
+        },
+        {
+          "name": "waiter",
+          "shift": "Morning",
+          "worker": "Zack Colins"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "month": "December",
+      "day": "10",
+      "weekday": "Wednesday",
+      "worktype": [
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Ban Hash"
+        },
+        {
+          "name": "security",
+          "shift": "Evening",
+          "worker": "John Doe"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "month": "December",
+      "day": "11",
+      "weekday": "Thursday",
+      "worktype": [
+        {
+          "name": "security",
+          "shift": "Evening",
+          "worker": "Chris Abel"
+        },
+        {
+          "name": "barista",
+          "shift": "Morning",
+          "worker": "Evan Lincoln"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "month": "December",
+      "day": "12",
+      "weekday": "Friday",
+      "worktype": [
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Ban Hash"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "month": "December",
+      "day": "13",
+      "weekday": "Saturday",
+      "worktype": [
+        {
+          "name": "security",
+          "shift": "Evening",
+          "worker": "John Doe"
+        },
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Zack Colins"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "month": "December",
+      "day": "14",
+      "weekday": "Sunday",
+      "worktype": [
+        {
+          "name": "barista",
+          "shift": "Morning",
+          "worker": "Evan Lincoln"
+        },
+        {
+          "name": "waiter",
+          "shift": "Evening",
+          "worker": "Zack Colins"
+        },
+        {
+          "name": "security",
+          "shift": "Morning",
+          "worker": "John Doe"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "month": "December",
+      "day": "15",
+      "weekday": "Monday",
+      "worktype": [
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Eliot Lesner"
+        },
+        {
+          "name": "security",
+          "shift": "Evening",
+          "worker": "John Doe"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "month": "December",
+      "day": "16",
+      "weekday": "Tuesday",
+      "worktype": [
+        {
+          "name": "security",
+          "shift": "Evening",
+          "worker": "Chris Abel"
+        },
+        {
+          "name": "barista",
+          "shift": "Morning",
+          "worker": "Evan Lincoln"
+        },
+        {
+          "name": "waiter",
+          "shift": "Evening",
+          "worker": "Zack Colins"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "month": "December",
+      "day": "17",
+      "weekday": "Wednesday",
+      "worktype": [
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Ban Hash"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "month": "December",
+      "day": "18",
+      "weekday": "Thursday",
+      "worktype": [
+        {
+          "name": "security",
+          "shift": "Evening",
+          "worker": "John Doe"
+        },
+        {
+          "name": "barista",
+          "shift": "Evening",
+          "worker": "Evan Lincoln"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "month": "December",
+      "day": "19",
+      "weekday": "Friday",
+      "worktype": [
+        {
+          "name": "security",
+          "shift": "Evening",
+          "worker": "Chris Abel"
+        },
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Zack Colins"
+        },
+        {
+          "name": "waiter",
+          "shift": "Evening",
+          "worker": "Eliot Lesner"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "month": "December",
+      "day": "20",
+      "weekday": "Saturday",
+      "worktype": [
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Ban Hash"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "month": "December",
+      "day": "21",
+      "weekday": "Sunday",
+      "worktype": [
+        {
+          "name": "security",
+          "shift": "Morning",
+          "worker": "John Doe"
+        },
+        {
+          "name": "barista",
+          "shift": "Evening",
+          "worker": "Evan Lincoln"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "month": "December",
+      "day": "22",
+      "weekday": "Monday",
+      "worktype": [
+        {
+          "name": "waiter",
+          "shift": "Morning",
+          "worker": "Zack Colins"
+        },
+        {
+          "name": "cook",
+          "shift": "Evening",
+          "worker": "Eliot Lesner"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "month": "December",
+      "day": "23",
+      "weekday": "Tuesday",
+      "worktype": [
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Ban Hash"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "month": "December",
+      "day": "24",
+      "weekday": "Wednesday",
+      "worktype": [
+        {
+          "name": "security",
+          "shift": "Morning",
+          "worker": "John Doe"
+        },
+        {
+          "name": "waiter",
+          "shift": "Evening",
+          "worker": "Zack Colins"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "month": "December",
+      "day": "25",
+      "weekday": "Thursday",
+      "worktype": [
+        {
+          "name": "barista",
+          "shift": "Morning",
+          "worker": "Evan Lincoln"
+        },
+        {
+          "name": "cook",
+          "shift": "Evening",
+          "worker": "Ban Hash"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "month": "December",
+      "day": "26",
+      "weekday": "Friday",
+      "worktype": [
+        {
+          "name": "security",
+          "shift": "Morning",
+          "worker": "Chris Abel"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "month": "December",
+      "day": "27",
+      "weekday": "Saturday",
+      "worktype": [
+        {
+          "name": "security",
+          "shift": "Evening",
+          "worker": "John Doe"
+        },
+        {
+          "name": "waiter",
+          "shift": "Evening",
+          "worker": "Eliot Lesner"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "month": "December",
+      "day": "28",
+      "weekday": "Sunday",
+      "worktype": [
+        {
+          "name": "barista",
+          "shift": "Morning",
+          "worker": "Evan Lincoln"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "month": "December",
+      "day": "29",
+      "weekday": "Monday",
+      "worktype": [
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Zack Colins"
+        },
+        {
+          "name": "security",
+          "shift": "Evening",
+          "worker": "John Doe"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "month": "December",
+      "day": "30",
+      "weekday": "Tuesday",
+      "worktype": [
+        {
+          "name": "security",
+          "shift": "Evening",
+          "worker": "Chris Abel"
+        },
+        {
+          "name": "barista",
+          "shift": "Morning",
+          "worker": "Evan Lincoln"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "month": "December",
+      "day": "31",
+      "weekday": "Wednesday",
+      "worktype": [
+        {
+          "name": "cook",
+          "shift": "Morning",
+          "worker": "Ban Hash"
+        },
+        {
+          "name": "waiter",
+          "shift": "Evening",
+          "worker": "Zack Colins"
+        }
+      ]
+    }
   ]
 }

@@ -10,6 +10,7 @@ import {
   throwError,
 } from 'rxjs';
 import * as bcrypt from 'bcryptjs';
+import { DAYSCHEDULE } from '../model/dayScheduleM';
 
 @Injectable({
   providedIn: 'root',
@@ -70,5 +71,13 @@ export class ServiceService {
       return isLogged ? JSON.parse(isLogged) : false;
     }
     return false;
+  }
+  paginationScheduleData(
+    first: number,
+    last: number
+  ): Observable<DAYSCHEDULE[]> {
+    return this.http.get<DAYSCHEDULE[]>(
+      this.api + `/dashboard?id_gte=${first}&id_lte=${last}`
+    );
   }
 }

@@ -4,21 +4,23 @@
     <div class="header_box">
       <h2>Month: <span>December</span></h2>
       <div class="buttons">
-        <button>{{ "<" }} Last Week</button>
-        <button>Next Week{{ ">" }}</button>
+        <button [disabled]="firstDayOfWeek === 1" (click)="lastBtnClick()">
+          {{ "<" }} Last Week
+        </button>
+        <button [disabled]="lastDayOfWeek === 35" (click)="nextBtnClick()">
+          Next Week{{ ">" }}
+        </button>
       </div>
     </div>
     <div class="timetable">
+      @if(weekData){
       <table>
         <tr>
           <th></th>
-          <th>Dec 1</th>
-          <th>Dec 2</th>
-          <th>Dec 3</th>
-          <th>Dec 4</th>
-          <th>Dec 5</th>
-          <th>Dec 6</th>
-          <th>Dec 7</th>
+          <th *ngFor="let day of weekData">
+            {{ day?.day }}
+            {{ day?.month?.slice(0, 3) }}
+          </th>
         </tr>
         <tr>
           <td class="highlight"></td>
@@ -32,43 +34,126 @@
         </tr>
         <tr>
           <td class="highlight"><b>Security</b></td>
-          <td>Eng</td>
-          <td>Mat</td>
-          <td>Che</td>
-          <td></td>
-          <td>LAB</td>
-          <td>Phy</td>
-          <td></td>
+          <ng-container *ngFor="let day of weekData">
+            <ng-container
+              *ngIf="
+                checkSecurity(day.worktype, 'security') as securityWork;
+                else noSecurity
+              "
+            >
+              <td
+                style="font-size: 0.875rem"
+                [ngStyle]="{
+                  backgroundColor:
+                    securityWork?.shift === 'Evening'
+                      ? 'var(--eveningShift)'
+                      : 'var(--MorningShift)',
+                      color:  securityWork?.shift === 'Evening'
+                      ? 'var(--font_color)'
+                      : '#262626dc',
+                }"
+              >
+                {{ securityWork.worker }} -
+                <span>{{ securityWork.shift }}</span>
+              </td>
+            </ng-container>
+            <ng-template #noSecurity>
+              <td></td>
+            </ng-template>
+          </ng-container>
         </tr>
         <tr>
           <td class="highlight"><b>Cook</b></td>
-          <td>LAB</td>
-          <td>Eng</td>
-          <td>Che</td>
-          <td>Mat</td>
-          <td>SPORTS</td>
-          <td></td>
+          <ng-container *ngFor="let day of weekData">
+            <ng-container
+              *ngIf="
+                checkSecurity(day.worktype, 'cook') as securityWork;
+                else noSecurity
+              "
+            >
+              <td
+                style="font-size: 0.875rem"
+                [ngStyle]="{
+                  backgroundColor:
+                    securityWork?.shift === 'Evening'
+                      ? 'var(--eveningShift)'
+                      : 'var(--MorningShift)',
+                      color:  securityWork?.shift === 'Evening'
+                      ? 'var(--font_color)'
+                      : '#262626dc',
+                }"
+              >
+                {{ securityWork.worker }} -
+                <span>{{ securityWork.shift }}</span>
+              </td>
+            </ng-container>
+            <ng-template #noSecurity>
+              <td></td>
+            </ng-template>
+          </ng-container>
         </tr>
         <tr>
           <td class="highlight"><b>Barista</b></td>
-          <td>Mat</td>
-          <td>Phy</td>
-          <td>Eng</td>
-          <td>Che</td>
-          <td>LIBRARY</td>
-          <td></td>
-          <td></td>
+          <ng-container *ngFor="let day of weekData">
+            <ng-container
+              *ngIf="
+                checkSecurity(day.worktype, 'barista') as securityWork;
+                else noSecurity
+              "
+            >
+              <td
+                style="font-size: 0.875rem"
+                [ngStyle]="{
+                  backgroundColor:
+                    securityWork?.shift === 'Evening'
+                      ? 'var(--eveningShift)'
+                      : 'var(--MorningShift)',
+                      color:  securityWork?.shift === 'Evening'
+                      ? 'var(--font_color)'
+                      : '#262626dc',
+                }"
+              >
+                {{ securityWork.worker }} -
+                <span>{{ securityWork.shift }}</span>
+              </td>
+            </ng-container>
+            <ng-template #noSecurity>
+              <td></td>
+            </ng-template>
+          </ng-container>
         </tr>
         <tr>
           <td class="highlight"><b>Waiter</b></td>
-          <td>Phy</td>
-          <td></td>
-          <td></td>
-          <td>LAB</td>
-          <td>Mat</td>
-          <td>Mat</td>
+          <ng-container *ngFor="let day of weekData">
+            <ng-container
+              *ngIf="
+                checkSecurity(day.worktype, 'waiter') as securityWork;
+                else noSecurity
+              "
+            >
+              <td
+                style="font-size: 0.875rem"
+                [ngStyle]="{
+                  backgroundColor:
+                    securityWork?.shift === 'Evening'
+                      ? 'var(--eveningShift)'
+                      : 'var(--MorningShift)',
+                      color:  securityWork?.shift === 'Evening'
+                      ? 'var(--font_color)'
+                      : '#262626dc',
+                }"
+              >
+                {{ securityWork.worker }} -
+                <span>{{ securityWork.shift }}</span>
+              </td>
+            </ng-container>
+            <ng-template #noSecurity>
+              <td></td>
+            </ng-template>
+          </ng-container>
         </tr>
       </table>
+      }
     </div>
     <div class="shift_box">
       <h3>Shifts</h3>

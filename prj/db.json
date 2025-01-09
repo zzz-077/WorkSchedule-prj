@@ -5,37 +5,46 @@
       "name": "ikaika",
       "email": "ika@gmail.com",
       "password": "$2a$10$jepkRWud4Y3iYapDSDotEeExeA4UzRAlcQxyH2Mr8NHOhIpt0jqhe"
-    },
-    {
-      "id": "caf6d395ddc",
-      "name": "vaske",
-      "email": "vaske@gmail.com",
-      "password": "$2a$10$yOJ5uvUSJiHwc3txOwYhE.8bCFjVv3Uy45dqTBl/1cbUVjEoipob6"
     }
   ],
   "dashboard": [
     {
-      "id": "1",
+      "id": 1,
+      "month": "November",
+      "day": 31,
+      "worktype": [
+        {
+          "name": "security",
+          "shift": "Morning",
+          "worker": "John Doe"
+        },
+        {
+          "name": "cook",
+          "shift": "Evening",
+          "worker": "Zack Colins"
+        }
+      ]
+    },
+    {
+      "id": 2,
       "month": "December",
-      "day": "1",
-      "weekday": "Monday",
+      "day": 1,
       "worktype": [
         {
           "name": "cook",
-          "shift": "Mording",
+          "shift": "Morning",
           "worker": "Ban Hash"
         }
       ]
     },
     {
-      "id": "2",
+      "id": 3,
       "month": "December",
-      "day": "2",
-      "weekday": "Tuesday",
+      "day": 2,
       "worktype": [
         {
           "name": "security",
-          "shift": "Mording",
+          "shift": "Morning",
           "worker": "John Doe"
         },
         {
@@ -51,14 +60,13 @@
       ]
     },
     {
-      "id": "3",
+      "id": 4,
       "month": "December",
-      "day": "3",
-      "weekday": "Wednesday",
+      "day": 3,
       "worktype": [
         {
           "name": "cook",
-          "shift": "Mording",
+          "shift": "Morning",
           "worker": "Ban Hash"
         },
         {
@@ -69,10 +77,9 @@
       ]
     },
     {
-      "id": "4",
+      "id": 5,
       "month": "December",
-      "day": "4",
-      "weekday": "Thursday",
+      "day": 4,
       "worktype": [
         {
           "name": "cook",
@@ -87,10 +94,9 @@
       ]
     },
     {
-      "id": "5",
+      "id": 6,
       "month": "December",
-      "day": "5",
-      "weekday": "Friday",
+      "day": 5,
       "worktype": [
         {
           "name": "security",
@@ -110,10 +116,9 @@
       ]
     },
     {
-      "id": "6",
+      "id": 7,
       "month": "December",
-      "day": "6",
-      "weekday": "Saturday",
+      "day": 6,
       "worktype": [
         {
           "name": "barista",
@@ -123,10 +128,9 @@
       ]
     },
     {
-      "id": "7",
+      "id": 8,
       "month": "December",
-      "day": "7",
-      "weekday": "Sunday",
+      "day": 7,
       "worktype": [
         {
           "name": "cook",
@@ -146,10 +150,9 @@
       ]
     },
     {
-      "id": "8",
+      "id": 9,
       "month": "December",
-      "day": "8",
-      "weekday": "Monday",
+      "day": 8,
       "worktype": [
         {
           "name": "cook",
@@ -159,10 +162,9 @@
       ]
     },
     {
-      "id": "9",
+      "id": 10,
       "month": "December",
-      "day": "9",
-      "weekday": "Tuesday",
+      "day": 9,
       "worktype": [
         {
           "name": "janitor",
@@ -187,10 +189,9 @@
       ]
     },
     {
-      "id": "10",
+      "id": 11,
       "month": "December",
-      "day": "10",
-      "weekday": "Wednesday",
+      "day": 10,
       "worktype": [
         {
           "name": "cook",
@@ -205,10 +206,9 @@
       ]
     },
     {
-      "id": "11",
+      "id": 12,
       "month": "December",
-      "day": "11",
-      "weekday": "Thursday",
+      "day": 11,
       "worktype": [
         {
           "name": "security",
@@ -223,10 +223,9 @@
       ]
     },
     {
-      "id": "12",
+      "id": 13,
       "month": "December",
-      "day": "12",
-      "weekday": "Friday",
+      "day": 12,
       "worktype": [
         {
           "name": "cook",
@@ -236,10 +235,9 @@
       ]
     },
     {
-      "id": "13",
+      "id": 14,
       "month": "December",
-      "day": "13",
-      "weekday": "Saturday",
+      "day": 13,
       "worktype": [
         {
           "name": "security",
@@ -254,10 +252,9 @@
       ]
     },
     {
-      "id": "14",
+      "id": 15,
       "month": "December",
-      "day": "14",
-      "weekday": "Sunday",
+      "day": 14,
       "worktype": [
         {
           "name": "barista",
@@ -277,10 +274,9 @@
       ]
     },
     {
-      "id": "15",
+      "id": 16,
       "month": "December",
-      "day": "15",
-      "weekday": "Monday",
+      "day": 15,
       "worktype": [
         {
           "name": "cook",
@@ -295,10 +291,9 @@
       ]
     },
     {
-      "id": "16",
+      "id": 17,
       "month": "December",
-      "day": "16",
-      "weekday": "Tuesday",
+      "day": 16,
       "worktype": [
         {
           "name": "security",
@@ -318,10 +313,9 @@
       ]
     },
     {
-      "id": "17",
+      "id": 18,
       "month": "December",
-      "day": "17",
-      "weekday": "Wednesday",
+      "day": 17,
       "worktype": [
         {
           "name": "cook",
@@ -331,10 +325,9 @@
       ]
     },
     {
-      "id": "18",
+      "id": 19,
       "month": "December",
-      "day": "18",
-      "weekday": "Thursday",
+      "day": 18,
       "worktype": [
         {
           "name": "security",
@@ -349,10 +342,9 @@
       ]
     },
     {
-      "id": "19",
+      "id": 20,
       "month": "December",
-      "day": "19",
-      "weekday": "Friday",
+      "day": 19,
       "worktype": [
         {
           "name": "security",
@@ -372,10 +364,9 @@
       ]
     },
     {
-      "id": "20",
+      "id": 21,
       "month": "December",
-      "day": "20",
-      "weekday": "Saturday",
+      "day": 20,
       "worktype": [
         {
           "name": "cook",
@@ -385,10 +376,9 @@
       ]
     },
     {
-      "id": "21",
+      "id": 22,
       "month": "December",
-      "day": "21",
-      "weekday": "Sunday",
+      "day": 21,
       "worktype": [
         {
           "name": "security",
@@ -403,10 +393,9 @@
       ]
     },
     {
-      "id": "22",
+      "id": 23,
       "month": "December",
-      "day": "22",
-      "weekday": "Monday",
+      "day": 22,
       "worktype": [
         {
           "name": "waiter",
@@ -421,10 +410,9 @@
       ]
     },
     {
-      "id": "23",
+      "id": 24,
       "month": "December",
-      "day": "23",
-      "weekday": "Tuesday",
+      "day": 23,
       "worktype": [
         {
           "name": "cook",
@@ -434,10 +422,9 @@
       ]
     },
     {
-      "id": "24",
+      "id": 25,
       "month": "December",
-      "day": "24",
-      "weekday": "Wednesday",
+      "day": 24,
       "worktype": [
         {
           "name": "security",
@@ -452,10 +439,9 @@
       ]
     },
     {
-      "id": "25",
+      "id": 26,
       "month": "December",
-      "day": "25",
-      "weekday": "Thursday",
+      "day": 25,
       "worktype": [
         {
           "name": "barista",
@@ -470,10 +456,9 @@
       ]
     },
     {
-      "id": "26",
+      "id": 27,
       "month": "December",
-      "day": "26",
-      "weekday": "Friday",
+      "day": 26,
       "worktype": [
         {
           "name": "security",
@@ -483,10 +468,9 @@
       ]
     },
     {
-      "id": "27",
+      "id": 28,
       "month": "December",
-      "day": "27",
-      "weekday": "Saturday",
+      "day": 27,
       "worktype": [
         {
           "name": "security",
@@ -501,10 +485,9 @@
       ]
     },
     {
-      "id": "28",
+      "id": 29,
       "month": "December",
-      "day": "28",
-      "weekday": "Sunday",
+      "day": 28,
       "worktype": [
         {
           "name": "barista",
@@ -514,10 +497,9 @@
       ]
     },
     {
-      "id": "29",
+      "id": 30,
       "month": "December",
-      "day": "29",
-      "weekday": "Monday",
+      "day": 29,
       "worktype": [
         {
           "name": "cook",
@@ -532,10 +514,9 @@
       ]
     },
     {
-      "id": "30",
+      "id": 31,
       "month": "December",
-      "day": "30",
-      "weekday": "Tuesday",
+      "day": 30,
       "worktype": [
         {
           "name": "security",
@@ -550,10 +531,9 @@
       ]
     },
     {
-      "id": "31",
+      "id": 32,
       "month": "December",
-      "day": "31",
-      "weekday": "Wednesday",
+      "day": 31,
       "worktype": [
         {
           "name": "cook",

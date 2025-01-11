@@ -76,6 +76,7 @@ export class ServiceService {
     first: number,
     last: number
   ): Observable<DAYSCHEDULE[]> {
+    console.log('isRequestMade?');
     return this.http.get<DAYSCHEDULE[]>(
       this.api + `/dashboard?id_gte=${first}&id_lte=${last}`
     );

@@ -1,0 +1,8 @@
+bazis gashveba
+    cd prj  
+    npx json-server db.json
+
+
+frontis gashveba
+    cd prj
+    ng s -o

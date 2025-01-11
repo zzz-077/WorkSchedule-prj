@@ -44,9 +44,9 @@ export class MainComponent implements OnInit {
       .paginationScheduleData(first, last)
       .subscribe((days: DAYSCHEDULE[]) => {
         if (days) {
+          console.log(days);
+
           this.weekData = days;
-          // console.log(this.weekData);
-          // console.log(this.weekData[0].worktype);
         }
       });
   }
